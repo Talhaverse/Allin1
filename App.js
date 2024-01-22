@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Will be working on this open source allin1 reactnative app</Text>
+      <Text>Will be working on this open source allin1 reactnative-app</Text>
       <StatusBar style="auto" />
     </View>
   );
