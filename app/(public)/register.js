@@ -53,7 +53,7 @@ const Register = () => {
 
       await setActive({ session: completeSignUp.createdSessionId });
     } catch {
-      alert('message');
+      alert(err.errors[0].message);
     } finally {
       setLoading(false);
     }
