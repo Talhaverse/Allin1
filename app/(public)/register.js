@@ -69,7 +69,7 @@ const Register = () => {
           <TextInput autoCapitalize="none" placeholder="simon@galaxies.dev" value={emailAddress} onChangeText={setEmailAddress} style={styles.inputField} />
           <TextInput placeholder="password" value={password} onChangeText={setPassword} secureTextEntry style={styles.inputField} />
 
-          <Button onPress={onSignUpPress} title="Sign up" color={'#6c47ff'}></Button>
+          <Button onPress={onSignUpPress} title="Sign up" color={'#6c4'}></Button>
         </>
       )}
 
@@ -78,7 +78,7 @@ const Register = () => {
           <View>
             <TextInput value={code} placeholder="Code..." style={styles.inputField} onChangeText={setCode} />
           </View>
-          <Button onPress={onPressVerify} title="Verify Email" color={'#6c47ff'}></Button>
+          <Button onPress={onPressVerify} title="Verify Email" color={'#6c4'}></Button>
         </>
       )}
     </View>
